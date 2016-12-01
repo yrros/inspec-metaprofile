@@ -1,0 +1,17 @@
+name: win_lin_meta_profile
+title: win_lin_meta_profile
+summary: This pulls in both windows and linux profiles
+version: 0.0.1
+maintainer: Anthony Hodson <ant@chef.io>
+license: Apache 2.0 License
+copyright: Anthony Hodson <ant@chef.io>
+
+depends:
+  - name: windows-basic
+    git: https://github.com/dev-sec/windows-hardening-benchmark.git
+  - name: os-hardening
+    git: https://github.com/dev-sec/tests-ssh-hardening.git
+    version: '= 2.0.0'
+  - name: ssh-hardening
+    git: https://github.com/dev-sec/tests-os-hardening.git
+    version: '= 2.0.0'
