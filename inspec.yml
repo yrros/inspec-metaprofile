@@ -12,5 +12,4 @@ depends:
   - name: os-hardening
     url: https://github.com/dev-sec/tests-ssh-hardening/archive/2.0.0.tar.gz
   - name: ssh-hardening
-    url: https://github.com/dev-sec/tests-os-hardening
-    version: '= 2.0.0'
+    url: https://github.com/dev-sec/tests-os-hardening/archive/2.0.0.tar.gz
