@@ -7,7 +7,7 @@ license: Apache 2.0 License
 copyright: Anthony Hodson <ant@chef.io>
 
 depends:
-  - name: windows-basic
+  - name: windows
     git: https://github.com/dev-sec/windows-hardening-benchmark.git
   - name: os-hardening
     git: https://github.com/dev-sec/tests-ssh-hardening.git
