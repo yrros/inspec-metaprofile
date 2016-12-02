@@ -8,10 +8,10 @@ copyright: Anthony Hodson <ant@chef.io>
 
 depends:
   - name: windows
-    url: https://github.com/dev-sec/windows-hardening-benchmark
+    git: https://github.com/dev-sec/windows-hardening-benchmark
   - name: os-hardening
-    url: https://github.com/dev-sec/tests-ssh-hardening
+    git: https://github.com/dev-sec/tests-ssh-hardening
     version: '= 2.0.0'
   - name: ssh-hardening
-    url: https://github.com/dev-sec/tests-os-hardening
+    git: https://github.com/dev-sec/tests-os-hardening
     version: '= 2.0.0'
