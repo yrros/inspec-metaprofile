@@ -17,4 +17,7 @@
 
 
 include_controls 'windows'
-include_controls 'os-hardening'
+include_controls 'os-hardening' do
+    skip_control  "sysctl-17"
+    skip_control  "sysctl-33"
+end
