@@ -18,4 +18,6 @@
 
 include_controls 'windows'
 include_controls 'os-hardening'
-include_controls 'ssh-hardening'
+    skip_control "os-05"
+    skip_control "sysctl-17"
+    skip_control "sysctl-33"
