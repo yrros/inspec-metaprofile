@@ -7,7 +7,6 @@ Or the windows profile:
 Tests:  https://github.com/dev-sec/windows-hardening-benchmark
 Fix:    https://github.com/dev-sec/chef-windows-hardening
 
-There is a skip for two of the tests to illistrate how to skip tests (and these tests don't currently pass when 'chef-windows-hardening' is applied)
-And there's an example which shows how to test if chef-client is installed.
+There is a skip for two of the tests to illistrate how to skip tests (and these tests don't currently pass when 'chef-windows-hardening' is applied).
 
 
