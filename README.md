@@ -22,4 +22,4 @@ Audit block of base role (base.json)
       "git": "https://github.com/yrros/inspec-metaprofile"
     }
   ]
-}
+} 
